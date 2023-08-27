@@ -1,0 +1,31 @@
+1.RISC
+2.CISC
+3.KERENEL SPACE
+4.DNS(DOMAIN NAME SYSTEM)
+5.ISA(INSTRUCTION SET ARCHITECTURE)
+6.IP ADDRESS (32 BITS, LAYER 3)
+7.PORTNUMBER (25,443,80 ETC. , LAYER 4)
+8.DEBIAN FAMILY (UBUNTU , KALILINUX ETC.)
+9.BARE METAL(SERVER)
+10.HYPERVISOR( TYPE 1,2)
+11.VIRTUALMACHINE (VM)
+12.FGPA
+13.SOCKETS (IP+PORTNUMBER)
+14.OSI(7 LAYERS)
+15.TCP/IP(5 LAYERS)
+16.MAC ADDRESS (48 BITS) -> NIC ADDRESS
+17.PROTOCOL
+18.ACCELETOR(AI,TELE)
+19.CRYPTOGRAPHY 
+20.VON NEUMANN ARCH
+21.HAYWARD ARCH
+22.FIRWARE
+23.CACHE(CPU)
+24.HTTPS(S= SECURE SOCKET(IP+PORTNO))
+25.SSH(PORTNO=22)(SECURE SHELL)
+26.TLS(Transport Layer Security (TLS) encrypts data sent over the Internet to ensure that eavesdroppers and hackers are unable to see what you transmit which is particularly useful for private and sensitive information such as passwords, credit card numbers, and personal correspondence.
+27.IPV4/IPV6
+28.OOPS(OOPs (Object-Oriented Programming System)Object means a real-world entity such as a pen, chair, table, computer, watch, etc. Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects. It simplifies software development and maintenance by providing some concepts: Object.)
+29.ENCAPSULATION (Encapsulation is a way to restrict the direct access to some components of an object, so users cannot access state values for all of the variables of a particular object. Encapsulation can be used to hide both data members and data functions or methods associated with an instantiated class or object.)
+30.ABSTRACTION (Abstraction is the process of hiding the internal details of an application from the outer world. Abstraction is used to describe things in simple terms. It's used to create a boundary between the application and the client programs.)
+31.POLYMORHIPSM(Polymorphism is one of the core concepts of object-oriented programming (OOP) and describes situations in which something occurs in several different forms. In computer science, it describes the concept that you can access objects of different types through the same interface.)
