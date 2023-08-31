@@ -22,6 +22,6 @@
 21. **nano** - text editor
 22. **ifconfig** - display the current configuration of TCP/IP on a given workstation
 23. **ls -l** - used to list information about files and directories within the file system
-    -- r = readable
-    -- w = writeable
-    -- x = executable
+    - r = readable
+    - w = writeable
+    - x = executable
