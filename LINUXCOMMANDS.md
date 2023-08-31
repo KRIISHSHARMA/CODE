@@ -22,3 +22,4 @@
 21. **nano** - text editor
 22. **ifconfig** - display the current configuration of TCP/IP on a given workstation
 23. **ls -l** - used to list information about files and directories within the file system
+    - ![k](https://github.com/KRIISHSHARMA/CODE/assets/86760658/b6e755d4-e435-42b8-9da9-b3d69c506baa)
