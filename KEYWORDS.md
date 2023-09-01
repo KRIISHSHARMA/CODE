@@ -50,21 +50,24 @@ Hagward Architecture
 26. **VPN** - It establishes a digital connection between your computer and a remote server owned by a VPN provider, creating a point-to-point tunnel that encrypts your personal data, masks your IP address, and lets you sidestep website blocks and firewalls on the internet.
 27. **Cryptography** - It is the practice and study of techniques for secure communication in the presence of adversarial behavior. It is about constructing and analyzing protocols that prevent third parties or the public from reading private messages. 
 28. **Hypervisor** - It is a type of computer software, firmware or hardware that creates and runs virtual machines.
-29. **BareMetal**- Fresh Servers
-30. **IAM** - Identity and access management
-31. **nginx** - proxy server
-32. **apache** - client server - uses httpd(d stands for dameon:continuously runs in background) that creates a pool of child processes or threads to handle requests.
-33. **OOPS** - "object oriented programming systum/structue", It is a programming model based on the concept of “objects,” which can contain data and code to manipulate that data.
+    - TYPE 1 : hypervisor runs directly on the host machine's physical hardware
+    - TYPE 2 : hypervisor is typically installed on top of an existing OS.
+30. **BareMetal**- Fresh Servers
+31. **IAM** - Identity and access management
+32. **nginx** - proxy server
+33. **apache** - client server - uses httpd(d stands for dameon:continuously runs in background) that creates a pool of child processes or threads to handle requests.
+34. **OOPS** - "object oriented programming systum/structue", It is a programming model based on the concept of “objects,” which can contain data and code to manipulate that data.
  -The 4 pillers of **opps** :
   -**Encapsulation** :refers to the bundling of data, along with the methods that operate on that data, into a single unit.
   -**Abstraction**  :is the process of hiding the internal details of an application from the outer world.
   -**Inheritence** :one class inherits the attributes and methods of another class.
   -**Polymorphism** :is the method in an object-oriented programming language that performs different things as per the object's class, which calls it.
-34. **Certificate Authority** - (CA) is a trusted entity that issues Secure Sockets Layer (SSL) certificates
-35. **Certificate X.509** - The certificate is typically used to manage identity and security in computer networking and over the internet. For the internet, it is used in numerous protocols to ensure a malicious website doesn't fool a web browser. The X. 509 certificate is also used to secure email, device communications and digital signatures. 
+35. **Certificate Authority** - (CA) is a trusted entity that issues Secure Sockets Layer (SSL) certificates
+36. **Certificate X.509** - The certificate is typically used to manage identity and security in computer networking and over the internet. For the internet, it is used in numerous protocols to ensure a malicious website doesn't fool a web browser. The X. 509 certificate is also used to secure email, device communications and digital signatures. 
   - (CA) ex:- GoDaddy , Let's Encrypt(open) etc.
   - Signing Certificate algorithm is Cryptography : RSA, Elliptic Curve
 37. **Load Blanacer** - is a device that acts as a reverse proxy and distributes network or application traffic across a number of servers.
      -Algorithm is **ROUND ROBIN**
 38. **Round Robin** - Round Robin is a CPU scheduling algorithm where each process is assigned a fixed time slot in a cyclic way. It is basically the preemptive version of First come First Serve CPU Scheduling algorithm. Round Robin CPU Algorithm generally focuses on Time Sharing technique.
 39. **NAT** - ( network address translation ) It's a way to map multiple private addresses inside a local network to a public IP address before transferring the information onto the internet.<translates privete ip to publice ip and vica verse>
+40. **ASIC** - ( App specific integrated ckt. ) is an integrated circuit chip customized for a particular use, rather than intended for general-purpose use, such as a chip designed to run in a digital voice recorder or a high-efficiency video codec. ex- ***BITCOIN MINER***
