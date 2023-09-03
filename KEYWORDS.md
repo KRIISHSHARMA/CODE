@@ -1,6 +1,5 @@
 
 # KEYWORDS
-https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.practicalecommerce.com%2Fwp-content%2Fuploads%2F2023%2F02%2FSEO-3-Tools-to-Find-Related-Keywords.jpg&tbnid=iD6M519BuV_jxM&vet=12ahUKEwjriveo9I6BAxXIm2MGHU5rAnwQMygOegUIARCSAQ..i&imgrefurl=https%3A%2F%2Fwww.practicalecommerce.com%2Fseo-3-tools-to-find-related-keywords&docid=fsXoY9DNM4J06M&w=360&h=245&q=keywords&ved=2ahUKEwjriveo9I6BAxXIm2MGHU5rAnwQMygOegUIARCSAQ
 1. **CISC** - Complex Instruction Set Computer- Closed source - intel, AMD
 2. **RISC** - Reduced Instruction Set Computer- Closed source - ARM
 3. **RISC-V**  - It is an ISA based on reduced instruction set computer (RISC) principles. It is Open Source unlike the parent RISC.
