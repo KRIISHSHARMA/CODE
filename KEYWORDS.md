@@ -142,17 +142,23 @@ Vector databases are typically used to power vector search use cases like visual
 
 73.**kubevirt** - KubeVirt is a virtual machine management add-on for Kubernetes. The aim is to provide a common ground for virtualization solutions on top of Kubernetes.
 74.**overlay network**- An overlay network is a network that is built on top of another network and is supported by its infrastructure. An overlay network decouples network services from the underlying infrastructure by encapsulating one network packet inside of another packet.
+
 75.**underlay network** -the underlay network means all the physical infrastructure that enables frames and packets to be forwarded from o one point to another. In other words, we can understand the underlay networks as the “place” on which it is possible to connect and communicate with networking devices.
 <img width="560" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/ef9900a4-22a3-4b8e-959a-050f101e6ca6">
 <img width="572" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/18fe86ac-dbbc-4371-a2ba-3c1e7b701c33">
 
 76.**cni**- CNI stands for container network interface and it's a specification to configure network interfaces in Linux containers. And it is concerned mainly with adding, connecting and deleting disconnecting containers to networks.
+
 77.**TUN && TAP**- In computer networking, TUN and TAP are kernel virtual network devices. Being network devices supported entirely in software, they differ from ordinary network devices which are backed by physical network adapters.
 -***TUN*** :carries ip packets 
 -***TAP*** :carries ethernet frames 
 ![image](https://github.com/KRIISHSHARMA/basics/assets/86760658/f2e17ee0-bf2f-4104-9622-c8eb08479015)
 
 <img width="476" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/ca3d3dca-fd71-4e56-a138-bad672fa0bee">
+
+78.**veth**- The veth devices are virtual Ethernet devices. They can act as tunnels between network namespaces to create a bridge to a physical network device in another namespace, but can also be used as standalone network devices
+
+<img width="640" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/269ba63f-d3db-4a11-bbbe-6ecdf997d226">
 
 
 
