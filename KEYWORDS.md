@@ -131,11 +131,12 @@ Vector databases are typically used to power vector search use cases like visual
 <cgroups, short for control groups, allow administrators to limit and distribute resources among different groups of processes. Namespaces, on the other hand, create isolated environments for processes, separating them from the host system and other processes.>
 69. **borg** - Google created cgroups around 2006 to enable their Borg infrastructure, an app clustering system that is a spiritual precursor to Kubernetes.
 <img width="312" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/74ed2acd-f036-41a3-93b7-ae396e306737">
+
 70. **hyperscalers** - A hyperscaler is a type of large-scale data center that offers massive computing resources, typically in the form of an elastic cloud platform. Organizations use them to deploy and manage large-scale applications and services. ex: Amazon AWS, Microsoft Azure, Google GCP, Alibaba AliCloud, IBM, and Oracle
 71. **HCI**- Hyperconverged infrastructure (HCI) is a software-defined, unified system that combines all the elements of a traditional data center: storage, compute, networking and management.
 72. **pods** - Pods are the smallest deployable units of computing that you can create and manage in Kubernetes(specially made for deploying and managing containarized apps)
 72.**kata containers**- Kata Containers is an open source community working to build a secure container runtime with lightweight virtual machines that feel and perform like containers, but provide stronger workload isolation using hardware virtualization technology as a second layer of defense.
-<img width="559" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/a706dba4-29f0-47b2-847a-f382a411332a">
+
 <img width="559" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/32e49283-95b0-4afc-94bd-48dff4397e6e">
 <img width="338" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/ef434407-4181-4a76-ab39-e079d01a8304">
 
