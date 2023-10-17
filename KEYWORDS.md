@@ -78,6 +78,7 @@ Hagward Architecture
 40. **ASIC** - ( App specific integrated ckt. ) is an integrated circuit chip customized for a particular use, rather than intended for general-purpose use, such as a chip designed to run in a digital voice recorder or a high-efficiency video codec. ex- ***BITCOIN MINER***
 41. **containers** - Containers are packages of software that contain all of the necessary elements to run in any environment. In this way, containers virtualize the operating system and run anywhere, from a private data center to the public cloud or even on a developer's personal laptop.
 42. **dockers** - Docker is a platform designed to help developers build, share, and run container applications. We handle the tedious setup, so you can focus on the code.
+    ![containers_vs_vm-1-1](https://github.com/KRIISHSHARMA/basics/assets/86760658/a321e5fc-d1b7-460e-95be-cf81d7492832)
 43. **LXC(liinux containers)** - Linux Containers is an operating-system-level virtualization method for running multiple isolated Linux systems on a control host using a single Linux kernel
 44. **centralized computing** - Centralized computing is computing done at a central location, using terminals that are attached to a central computer.
 45. **decentralized computing** - Decentralized computing is the allocation of resources, both hardware and software, to each individual workstation, or office location
@@ -87,6 +88,8 @@ Hagward Architecture
                                                - rest api(representational state transfer architectural style)
                                                - grpc(Remote Procedure Calls)
                                                - graphql
+    <img width="400" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/b3ef0ed8-6e5d-406d-abfe-a1f0d0a78526">
+
 49. **qiskit** - Qiskit helps users schedule and run quantum programs on a variety of local simulators and cloud-based quantum processors.
 50. **AES ENCRYPTION** - The algorithm described by AES is a symmetric-key algorithm, meaning the same key is used for both encrypting and decrypting the data.
 51. **PKI** - PKI, or public key infrastructure, encompasses everything used to establish and manage public key encryption.
@@ -97,6 +100,11 @@ Hagward Architecture
 56. **k8s(Kubernetes)** - Kubernetes automates operational tasks of container management and includes built-in commands for deploying applications, rolling out changes to your applications, scaling your applications up and down to fit changing needs, monitoring your applications, and more—making it easier to manage applications.
 57. **huge pages** - HugePages optimizes the memory configuration of the Linux operating system.
 58. **openstack** - OpenStack is a free, open standard cloud computing platform. It is mostly deployed as infrastructure-as-a-service in both public and private clouds where virtual servers and other resources are made available to users.
+    -***neutron***- Neutron is an OpenStack project to provide "networking as a service" between interface devices (e.g., vNICs)
+    -***nova***- A compute service responsible for creating virtual machine instances and managing their life cycle, as well as managing the hypervisor of choice.
+    -***horizon**- A dashboard that creates a GUI for users to control the OpenStack deployment. This is an extensible framework to which vendors can add features
+    -***swift***- An object and Binary Large Object (BLOB) storage service responsible for managing object-based storage
+    -***Keystone***- An identity management system responsible for user and service authentication. 
 59. **proxmox** - Proxmox VE is an open-source platform for server virtualization that offers robust capabilities for managing both KVM (Kernel-based Virtual Machine) hypervisors and Linux Containers (LXC). It's used by organizations large and small.
 60. **HA(high availability)** - High availability (HA) is the ability of a system to operate continuously without failing for a designated period of time.
 ![data_center-information_flow-f_mobile](https://github.com/KRIISHSHARMA/basics/assets/86760658/03ec7947-f488-4e3d-ac1f-1903c32db2c6)
@@ -115,5 +123,22 @@ Hagward Architecture
 Vector databases are typically used to power vector search use cases like visual, semantic, and multimodal search. More recently, they're paired with generative artificial intelligence (AI) text models to create intelligent agents that provide conversational search experiences.)
 -2. sql(Structured query language (SQL) is a programming language for storing and processing information in a relational database.)
 -3. NoSQL, (also referred to as “not only SQL”, “non-SQL”, is an approach to database design that enables the storage and querying of data outside the traditional structures found in relational databases. ex(mongodb))
+    <img width="400" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/50941e5d-1d55-496c-9c3b-d961c127b4fd">
+
+66. **ddos** - A distributed denial-of-service (DDoS) attack is a malicious attempt to disrupt the normal traffic of a targeted server, service or network by overwhelming the target or its surrounding infrastructure with a flood of Internet traffic.
+67. **cgroups** - cgroups (abbreviated from control groups) is a Linux kernel feature that limits, accounts for, and isolates the resource usage (CPU, memory, disk I/O, etc.) of a collection of processes.
+68. **namespace** - create isolated environments for processes, separating them from the host system and other processes.
+<cgroups, short for control groups, allow administrators to limit and distribute resources among different groups of processes. Namespaces, on the other hand, create isolated environments for processes, separating them from the host system and other processes.>
+69. **borg** - Google created cgroups around 2006 to enable their Borg infrastructure, an app clustering system that is a spiritual precursor to Kubernetes.
+<img width="312" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/74ed2acd-f036-41a3-93b7-ae396e306737">
+70. **hyperscalers** - A hyperscaler is a type of large-scale data center that offers massive computing resources, typically in the form of an elastic cloud platform. Organizations use them to deploy and manage large-scale applications and services. ex: Amazon AWS, Microsoft Azure, Google GCP, Alibaba AliCloud, IBM, and Oracle
+71. **HCI**- Hyperconverged infrastructure (HCI) is a software-defined, unified system that combines all the elements of a traditional data center: storage, compute, networking and management.
+72. **pods** - Pods are the smallest deployable units of computing that you can create and manage in Kubernetes(specially made for deploying and managing containarized apps)
+72.**kata containers**- Kata Containers is an open source community working to build a secure container runtime with lightweight virtual machines that feel and perform like containers, but provide stronger workload isolation using hardware virtualization technology as a second layer of defense.
+<img width="559" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/a706dba4-29f0-47b2-847a-f382a411332a">
+<img width="559" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/32e49283-95b0-4afc-94bd-48dff4397e6e">
+<img width="338" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/ef434407-4181-4a76-ab39-e079d01a8304">
+
+
 
  
