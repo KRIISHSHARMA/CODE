@@ -130,11 +130,12 @@ Vector databases are typically used to power vector search use cases like visual
 68. **namespace** - create isolated environments for processes, separating them from the host system and other processes.
 <cgroups, short for control groups, allow administrators to limit and distribute resources among different groups of processes. Namespaces, on the other hand, create isolated environments for processes, separating them from the host system and other processes.>
 69. **borg** - Google created cgroups around 2006 to enable their Borg infrastructure, an app clustering system that is a spiritual precursor to Kubernetes.
+    -***mesos*** : Apache Mesos is an open-source project to manage computer clusters.
 <img width="312" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/74ed2acd-f036-41a3-93b7-ae396e306737">
 
-70. **hyperscalers** - A hyperscaler is a type of large-scale data center that offers massive computing resources, typically in the form of an elastic cloud platform. Organizations use them to deploy and manage large-scale applications and services. ex: Amazon AWS, Microsoft Azure, Google GCP, Alibaba AliCloud, IBM, and Oracle
-71. **HCI**- Hyperconverged infrastructure (HCI) is a software-defined, unified system that combines all the elements of a traditional data center: storage, compute, networking and management.
-72. **pods** - Pods are the smallest deployable units of computing that you can create and manage in Kubernetes(specially made for deploying and managing containarized apps)
+71. **hyperscalers** - A hyperscaler is a type of large-scale data center that offers massive computing resources, typically in the form of an elastic cloud platform. Organizations use them to deploy and manage large-scale applications and services. ex: Amazon AWS, Microsoft Azure, Google GCP, Alibaba AliCloud, IBM, and Oracle
+72. **HCI**- Hyperconverged infrastructure (HCI) is a software-defined, unified system that combines all the elements of a traditional data center: storage, compute, networking and management.
+73. **pods** - Pods are the smallest deployable units of computing that you can create and manage in Kubernetes(specially made for deploying and managing containarized apps)
 72.**kata containers**- Kata Containers is an open source community working to build a secure container runtime with lightweight virtual machines that feel and perform like containers, but provide stronger workload isolation using hardware virtualization technology as a second layer of defense.
 
 <img width="559" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/32e49283-95b0-4afc-94bd-48dff4397e6e">
@@ -149,16 +150,40 @@ Vector databases are typically used to power vector search use cases like visual
 
 76.**cni**- CNI stands for container network interface and it's a specification to configure network interfaces in Linux containers. And it is concerned mainly with adding, connecting and deleting disconnecting containers to networks.
 
-77.**TUN && TAP**- In computer networking, TUN and TAP are kernel virtual network devices. Being network devices supported entirely in software, they differ from ordinary network devices which are backed by physical network adapters.
+77.**funnel**-Flannel, a project developed by the CoreOS, is perhaps the most straightforward and popular CNI plugin available. It is one of the most mature examples of networking fabric for container orchestration systems, intended to allow for better inter-container and inter-host networking. Flannel is a simple and easy way to configure a layer 3 network fabric designed for Kubernetes.
+
+78.**TUN && TAP**- In computer networking, TUN and TAP are kernel virtual network devices. Being network devices supported entirely in software, they differ from ordinary network devices which are backed by physical network adapters.
 -***TUN*** :carries ip packets 
 -***TAP*** :carries ethernet frames 
+
 ![image](https://github.com/KRIISHSHARMA/basics/assets/86760658/f2e17ee0-bf2f-4104-9622-c8eb08479015)
 
 <img width="476" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/ca3d3dca-fd71-4e56-a138-bad672fa0bee">
 
-78.**veth**- The veth devices are virtual Ethernet devices. They can act as tunnels between network namespaces to create a bridge to a physical network device in another namespace, but can also be used as standalone network devices
+79.**veth**- The veth devices are virtual Ethernet devices. They can act as tunnels between network namespaces to create a bridge to a physical network device in another namespace, but can also be used as standalone network devices
 
 <img width="640" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/269ba63f-d3db-4a11-bbbe-6ecdf997d226">
+
+80.**libvirt** - libvirt is an open-source API, daemon and management tool for managing platform virtualization.[3] It can be used to manage KVM, Xen, VMware ESXi, QEMU and other virtualization technologies. These APIs are widely used in the orchestration layer of hypervisors in the development of a cloud-based solution
+
+![300px-Libvirt_support svg](https://github.com/KRIISHSHARMA/basics/assets/86760658/b350c514-67e7-472a-915d-cbbd2b7df173)
+
+81.**daemon** - Daemons are processes that run unattended. They are constantly in the background and are available at all times. Daemons are usually started when the system starts, and they run until the system stops. A daemon process typically performs system services and is available at all times to more than one task or user.
+
+82.**ovirt** - oVirt is a free, open-source virtualization management platform. It was founded by Red Hat as a community project on which Red Hat Virtualization is based.
+
+83.**virsh** - With virsh , you can control the state of a VM, edit the configuration of a VM or even migrate a VM to another host
+
+84.**virt-manager** - Virtual Machine Manager allows users to
+
+  - create, edit, start and stop VMs
+  - view and control each VM's console
+  - see performance and utilization statistics for each VM
+  - view all running VMs and hosts, and their live performance or resource utilization statistics.
+  - use KVM, Xen or QEMU virtual machines, running either locally or remotely.
+  - use LXC containers
+
+
 
 
 
