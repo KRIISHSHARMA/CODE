@@ -8,8 +8,8 @@
 4. **Kernel** - programm to manage communication between software i.e. user-level applications and hardware i.e., CPU and disk memory  
 - Kernel Programming Languages
   - C
-  - Rust
   - C++
+  - Rust
 5. **DNS** - turns domain names into IP addresses, which allow browsers to get to websites and other internet resources.
 6. **ISA** - Instruction Set Architecture - An Instruction Set Architecture (ISA) is part of the abstract model of a computer that defines how the CPU is controlled by the software. The ISA acts as an interface between the hardware and the software, specifying both what the processor is capable of doing as well as how it gets done.
 7. **IP Addresss**- Internet Protcol (IPv4,IPv6)
@@ -54,9 +54,13 @@ Hagward Architecture
 28. **Hypervisor** - It is a type of computer software, firmware or hardware that creates and runs virtual machines.
     - TYPE 1 : hypervisor runs directly on the host machine's physical hardware
     - TYPE 2 : hypervisor is typically installed on top of an existing OS.
-      -- **kvm** - Kernel-based Virtual Machine is a free and open-source virtualization module in the Linux kernel that allows the kernel to function as a hypervisor.
-      -- **xen** - Xen is a free and open-source type-1 hypervisor, providing services that allow multiple computer operating systems to execute on the same computer 
+    - **kvm** : Kernel-based Virtual Machine is a free and open-source virtualization module in the Linux kernel that allows the kernel to function as a hypervisor.
+    - **xen** : Xen is a free and open-source type-1 hypervisor, providing services that allow multiple computer operating systems to execute on the same computer 
           hardware concurrently.
+      
+![Hyperviseur svg](https://github.com/KRIISHSHARMA/basics/assets/86760658/72a0c287-3a90-4386-a246-ac7c26c5fbd1)
+
+
 30. **BareMetal**- Fresh Servers
 31. **IAM** - Identity and access management
 32. **nginx** - proxy server
@@ -100,11 +104,11 @@ Hagward Architecture
 56. **k8s(Kubernetes)** - Kubernetes automates operational tasks of container management and includes built-in commands for deploying applications, rolling out changes to your applications, scaling your applications up and down to fit changing needs, monitoring your applications, and more—making it easier to manage applications.
 57. **huge pages** - HugePages optimizes the memory configuration of the Linux operating system.
 58. **openstack** - OpenStack is a free, open standard cloud computing platform. It is mostly deployed as infrastructure-as-a-service in both public and private clouds where virtual servers and other resources are made available to users.
-    -***neutron***- Neutron is an OpenStack project to provide "networking as a service" between interface devices (e.g., vNICs)
-    -***nova***- A compute service responsible for creating virtual machine instances and managing their life cycle, as well as managing the hypervisor of choice.
-    -***horizon**- A dashboard that creates a GUI for users to control the OpenStack deployment. This is an extensible framework to which vendors can add features
-    -***swift***- An object and Binary Large Object (BLOB) storage service responsible for managing object-based storage
-    -***Keystone***- An identity management system responsible for user and service authentication. 
+    - ***neutron***- Neutron is an OpenStack project to provide "networking as a service" between interface devices (e.g., vNICs)
+    - ***nova***- A compute service responsible for creating virtual machine instances and managing their life cycle, as well as managing the hypervisor of choice.
+    - ***horizon**- A dashboard that creates a GUI for users to control the OpenStack deployment. This is an extensible framework to which vendors can add features
+    - ***swift***- An object and Binary Large Object (BLOB) storage service responsible for managing object-based storage
+    - ***Keystone***- An identity management system responsible for user and service authentication. 
 59. **proxmox** - Proxmox VE is an open-source platform for server virtualization that offers robust capabilities for managing both KVM (Kernel-based Virtual Machine) hypervisors and Linux Containers (LXC). It's used by organizations large and small.
 60. **HA(high availability)** - High availability (HA) is the ability of a system to operate continuously without failing for a designated period of time.
 ![data_center-information_flow-f_mobile](https://github.com/KRIISHSHARMA/basics/assets/86760658/03ec7947-f488-4e3d-ac1f-1903c32db2c6)
@@ -182,7 +186,7 @@ Vector databases are typically used to power vector search use cases like visual
   - view all running VMs and hosts, and their live performance or resource utilization statistics.
   - use KVM, Xen or QEMU virtual machines, running either locally or remotely.
   - use LXC containers
-
+85.**HCL** - HCL (HashiCorp Configuration Language) is a configuration language designed for infrastructure automation
 
 
 
