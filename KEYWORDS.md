@@ -145,10 +145,13 @@ Vector databases are typically used to power vector search use cases like visual
 <img width="559" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/32e49283-95b0-4afc-94bd-48dff4397e6e">
 <img width="338" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/ef434407-4181-4a76-ab39-e079d01a8304">
 
-73.**kubevirt** - KubeVirt is a virtual machine management add-on for Kubernetes. The aim is to provide a common ground for virtualization solutions on top of Kubernetes.
+73.**kubevirt** - KubeVirt is a virtual machine management add-on for Kubernetes. The aim is to provide a common ground for virtualization solutions on top of Kubernetes
+
+
 74.**overlay network**- An overlay network is a network that is built on top of another network and is supported by its infrastructure. An overlay network decouples network services from the underlying infrastructure by encapsulating one network packet inside of another packet.
 
 75.**underlay network** -the underlay network means all the physical infrastructure that enables frames and packets to be forwarded from o one point to another. In other words, we can understand the underlay networks as the “place” on which it is possible to connect and communicate with networking devices.
+
 <img width="560" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/ef9900a4-22a3-4b8e-959a-050f101e6ca6">
 <img width="572" alt="image" src="https://github.com/KRIISHSHARMA/basics/assets/86760658/18fe86ac-dbbc-4371-a2ba-3c1e7b701c33">
 
